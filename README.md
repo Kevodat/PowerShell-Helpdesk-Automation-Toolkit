@@ -58,7 +58,7 @@ The interactive console provides a standardized menu interface, ensuring consist
 The tool checks for account existence, pulls extended domain properties, and evaluates the bad password count to provide context before offering an immediate unlock prompt.
 
 <p align="center">
-  <img src="Screenshots/helpdesk-toolkit-account-lookup-success.png" width="800" alt="Account Lookup and Unlock">
+  <img src="Screenshot/helpdesk-toolkit-account-lookup-success.png" width="800" alt="Account Lookup and Unlock">
   <br>
   <em>Figure 2.1: Extended Active Directory attribute query displaying healthy account state and last password timestamps.</em>
 </p>
@@ -69,7 +69,7 @@ The tool checks for account existence, pulls extended domain properties, and eva
 Passes credentials safely into the domain using `ConvertTo-SecureString`, forces user-side password changes upon next logon, and automatically clears stale lockout flags.
 
 <p align="center">
-  <img src="Screenshots/helpdesk-toolkit-password-reset-success.png" width="800" alt="Password Reset Tool">
+  <img src="Screenshot/helpdesk-toolkit-password-reset-success.png" width="800" alt="Password Reset Tool">
   <br>
   <em>Figure 3.1: Password reset pipeline executing credential rotation and setting ChangePasswordAtLogon.</em>
 </p>
@@ -80,7 +80,7 @@ Passes credentials safely into the domain using `ConvertTo-SecureString`, forces
 Queries group memberships and handles additions/removals to ensure least-privilege access and faster ticket turnaround for access requests.
 
 <p align="center">
-  <img src="Screenshots/helpdesk-toolkit-group-management.png" width="800" alt="Group Membership Manager">
+  <img src="Screenshot/helpdesk-toolkit-group-management.png" width="800" alt="Group Membership Manager">
   <br>
   <em>Figure 4.1: Live security group query and addition of the target user to 'Remote Desktop Users'.</em>
 </p>
@@ -91,7 +91,7 @@ Queries group memberships and handles additions/removals to ensure least-privile
 Automates basic network isolation steps by testing physical reachability, verifying name resolution, and pulling OS metrics via CIM.
 
 <p align="center">
-  <img src="Screenshots/helpdesk-toolkit-network-diagnostic.png" width="800" alt="Network Diagnostic Tool">
+  <img src="Screenshot/helpdesk-toolkit-network-diagnostic.png" width="800" alt="Network Diagnostic Tool">
   <br>
   <em>Figure 5.1: Multi-stage network diagnostic verifying ICMP response, DNS mapping, and system uptime.</em>
 </p>
