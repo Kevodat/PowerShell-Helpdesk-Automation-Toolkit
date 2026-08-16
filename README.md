@@ -47,7 +47,7 @@ An interactive, modular PowerShell administration utility designed for Tier 1 an
 The interactive console provides a standardized menu interface, ensuring consistent script execution across support tiers.
 
 <p align="center">
-  <img src="Screenshots/helpdesk-toolkit-main-menu.png" width="800" alt="Main Menu Interface">
+  <img src="Screenshot/helpdesk-toolkit-main-menu.png" width="800" alt="Main Menu Interface">
   <br>
   <em>Figure 1.1: Interactive administrative menu interface with input routing and execution loop.</em>
 </p>
